@@ -546,6 +546,117 @@
     display: none;
 }
 
+#dikit{
+    margin-top: 200px;
+    background-color: #F5F7FA;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.container-dikit{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: xx-large;
+}
+
+.container-dikit h1{
+    color: #F44708;
+}
+
+.container-dikit button{
+    background-color: #FAA613;
+    color: white;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+
+.container-dikit button:hover{
+    background-color: gainsboro;
+}
+
+#footer{
+    background-color: #F44708;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.logoabudzar-footer{
+    display: flex;
+    align-items: center;
+}
+
+.logoabudzar-footer h1{
+    color: blue;
+    font-size: x-large;
+}
+
+.logoabudzar-footer h2{
+    font-size: x-large;
+    color: chartreuse;
+}
+
+.copyright p{
+    color: white;
+}
+
+.copyrightp2{
+    margin-top: -5px;
+}
+
+.logologo-footer{
+    margin-top: 65px;
+}
+
+.container-footer{
+    display: flex;
+}
+
+.container-abudzartengah{
+    margin-left: 100px;
+    display: flex;
+
+}
+
+.container-abudzartengah h3{
+    color: white;
+}
+
+.container-abudzartengah p{
+    color: white;
+}
+
+.emailaddress{
+    background-color: #FAA613;
+    position: relative;
+    border-radius: 10px;
+}
+
+.emailaddress img{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.emailaddress input{
+    background-color: #FAA613;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+::placeholder{
+    color: #F5F7FA;
+}
+
 @media only screen and (max-width: 745px){
     .icon-menu{
         display: block;
